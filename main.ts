@@ -3,7 +3,7 @@ namespace screenMagic{
      *AAAa
      */
     //% blockId = screenMagicPlotAt
-    //% block = "ploat at index"
+    //% block = "ploat at $index"
     //% index.min = 0 index.max = 25
     export function plotAt(index:number):void{
         const x = Math.floor(index / 5)
